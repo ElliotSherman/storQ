@@ -1,6 +1,6 @@
 import { NgFor, NgIf } from '@angular/common';
 import { Component , Input } from '@angular/core';
-import { ListItem } from './_listItem';
+import { ListItem } from '../../model/list-item.module';
 
 @Component({
   selector: 'app-list',

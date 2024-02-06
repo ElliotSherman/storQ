@@ -1,7 +1,7 @@
 import { Component, NgModule } from '@angular/core';
 import { ListComponent } from '../list/list.component';
 import { NAVLINKS } from './_navLinks';
-import { ListItem } from '../list/_listItem';
+import { ListItem } from '../../model/list-item.module';
 import { BoxesComponent } from '../boxes/boxes.component';
 
 @Component({
