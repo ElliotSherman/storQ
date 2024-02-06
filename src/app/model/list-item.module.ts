@@ -1,4 +1,4 @@
-export interface ListItem{
+export interface Navlink{
     title: string;
     route?: string;
 }

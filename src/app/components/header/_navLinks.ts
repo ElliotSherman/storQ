@@ -1,5 +1,5 @@
-import { ListItem } from '../../model/list-item.module';
-export const NAVLINKS: ListItem[] = [
+import { Navlink } from '../../model/list-item.module';
+export const NAVLINKS: Navlink[] = [
   {
     title: 'boxes',
     // route: '',
