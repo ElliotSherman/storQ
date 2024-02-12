@@ -3,6 +3,10 @@
 .header {
   background-color: $clr3;
   color: $clr5;
+  .logo{
+    margin-top: 4px;
+    letter-spacing: rem(3px);
+  }
   .navbar {
     grid-auto-flow: column;
   }
@@ -12,9 +16,12 @@
     flex: 1;
     justify-content: flex-end;
     .nav-links-container {
-        flex: 1;
-        height: 100%;
-        align-content: center;
+      flex: 1;
+      height: 100%;
+      align-content: center;
+      font-size: rem(36px);
+      margin-bottom: rem(9px);
+      letter-spacing: rem(2px);
     }
   }
 }

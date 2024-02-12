@@ -1,11 +1,11 @@
 import { Navlink } from '../../model/list-item.module';
 export const NAVLINKS: Navlink[] = [
   {
-    title: 'boxes',
+    title: 'Link',
     // route: '',
   },
   {
-    title: 'signup',
+    title: 'Link',
     // route: '',
   },
   //   {
