@@ -1,9 +1,17 @@
-<div class="box">
-  <div class="box-img-container">Box Img</div>
-  <h3 class="box-name">box1</h3>
-  <ul class="box-list clean-list">
-    <li class="box-list-item">Item 1</li>
-    <li class="box-list-item">Item 2</li>
-    <li class="box-list-item">Item 3</li>
-  </ul>
-</div>
+<!-- <div class="box"> -->
+  <!-- <div class="box-img-container">Box Img</div> -->
+  <!-- <h3 class="box-name">box1</h3> -->
+  <!-- <ul class="box-list clean-list"> -->
+    <!-- <li class="box-list-item">Item 1</li> -->
+    <!-- <li class="box-list-item">Item 2</li> -->
+    <!-- <li class="box-list-item">Item 3</li> -->
+  <!-- </ul> -->
+<!-- </div> -->
+
+<ul class="nav-list clean-list" *ngIf="boxes">
+  <li class="nav-list-li" *ngFor="let box of boxes">
+    <a class="nav-list-link">
+      {{ box.itemName }}
+    </a>
+  </li>
+</ul>

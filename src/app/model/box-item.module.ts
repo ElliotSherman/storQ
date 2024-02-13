@@ -1,4 +1,4 @@
 export interface BoxItem {
-    itemName: string;
-    qty?: number;
-  }
+  itemName: string;
+  qty?: number;
+}

@@ -1,5 +1,5 @@
 import { Component, NgModule } from '@angular/core';
-import { NavlistComponent } from '../list/nav-list.component';
+import { NavlistComponent } from '../navlist/nav-list.component';
 import { NAVLINKS } from './_navLinks';
 import { Navlink } from '../../model/list-item.module';
 import { BoxesComponent } from '../boxes/boxes.component';
