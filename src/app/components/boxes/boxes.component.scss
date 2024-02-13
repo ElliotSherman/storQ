@@ -1,0 +1,13 @@
+.box-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  // grid-auto-flow: dense;
+  grid-auto-rows: auto;
+  gap: 5px;
+  .box-list-li {
+    width: 250px;
+  }
+}
+// to acheive a dense layout like google keep/notes there is a library called Isotope
+// you can use it but try to implimaent by yourself here is a link to a codepen 
+// https://medium.com/@andybarefoot/a-masonry-style-layout-using-css-grid-8c663d355ebb

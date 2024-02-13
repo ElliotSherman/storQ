@@ -1,4 +1,4 @@
-import { Component, NgModule } from '@angular/core';
+import { Component } from '@angular/core';
 import { NavlistComponent } from '../navlist/nav-list.component';
 import { NAVLINKS } from './_navLinks';
 import { Navlink } from '../../model/list-item.module';

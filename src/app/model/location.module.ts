@@ -1,6 +1,6 @@
 import { BoxItem } from './box-item.module';
 
-export interface LocationItem {
+export interface Location {
   locationName: string;
-  boxes: BoxItem[];
+  boxes?: BoxItem[];
 }
