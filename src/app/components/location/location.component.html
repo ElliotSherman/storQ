@@ -1,7 +1,11 @@
 <!-- <p>location works!</p> -->
-<div class="location-container">
-  <h3 class="location-name">location 1</h3>
-  <button class="location-options-btn">Options</button>
-</div>
-<div class="location-seperator"></div>
-<app-boxes [boxes]="boxes"></app-boxes>
+<ul>
+  <li *ngFor="let location of locations">
+    <div class="location-container">
+      <h3 class="location-name">{{ location.locationName }}</h3>
+      <button class="location-options-btn">Options</button>
+    </div>
+    <div class="location-seperator"></div>
+    <app-boxes [boxes]="boxes"></app-boxes>
+  </li>
+</ul>

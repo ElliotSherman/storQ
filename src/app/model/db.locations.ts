@@ -1,7 +1,7 @@
 import { BOXES } from './db.boxes';
 import { Location } from './location.module';
 
-export const LOCATION: Location[] = [
+export const LOCATIONS: Location[] = [
   {
     locationName: 'location A',
     boxes: BOXES,

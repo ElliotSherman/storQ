@@ -1,6 +1,6 @@
 import { NgFor, NgIf } from '@angular/common';
 import { Component, Input } from '@angular/core';
-import { Navlink } from '../../model/list-item.module';
+import { Navlink } from '../../model/navlink.module';
 
 @Component({
   selector: 'app-navlist',

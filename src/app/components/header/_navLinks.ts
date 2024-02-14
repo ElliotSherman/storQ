@@ -1,4 +1,4 @@
-import { Navlink } from '../../model/list-item.module';
+import { Navlink } from '../../model/navlink.module';
 export const NAVLINKS: Navlink[] = [
   {
     title: 'Link',
