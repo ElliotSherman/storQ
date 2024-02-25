@@ -1,0 +1,11 @@
+<!-- <p>location works!</p> -->
+<ul>
+  <li *ngFor="let sku of skus">
+    <div class="sku-container">
+      <h3 class="sku-name">{{ sku.skuName }}</h3>
+      <button class="sku-options-btn">Options</button>
+    </div>
+    <div class="sku-seperator"></div>
+    <app-boxes [boxes]="sku.boxes"></app-boxes>
+  </li>
+</ul>

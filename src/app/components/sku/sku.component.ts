@@ -3,17 +3,17 @@ import { BoxesComponent } from '../boxes/boxes.component';
 import { BOXES } from '../../model/db.boxes';
 import { BoxItem } from '../../model/box-item.module';
 import { NgFor } from '@angular/common';
-import { LOCATIONS } from '../../model/db.locations';
-import { Location } from '../../model/location.module';
+import { SKUS } from '../../model/db.skus';
+import { Sku } from '../../model/sku.module';
 
 @Component({
-  selector: 'app-location',
+  selector: 'app-sku',
   standalone: true,
-  templateUrl: './location.component.html',
-  styleUrl: './location.component.scss',
+  templateUrl: './sku.component.html',
+  styleUrl: './sku.component.scss',
   imports: [BoxesComponent, NgFor],
 })
-export class LocationComponent {
+export class SkuComponent {
   boxes: BoxItem[] = BOXES;
-  locations: Location[]  = LOCATIONS;
+  skus: Sku[] = SKUS;
 }

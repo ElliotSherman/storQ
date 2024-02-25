@@ -2,19 +2,19 @@ import { Component } from '@angular/core';
 import { NavlistComponent } from '../navlist/nav-list.component';
 import { NAVLINKS } from './_navLinks';
 import { Navlink } from '../../model/navlink.module';
-import { LocationComponent } from '../location/location.component';
+import { SkuComponent } from '../sku/sku.component';
 import { CommonModule, NgFor } from '@angular/common';
-import { LOCATIONS } from '../../model/db.locations';
-import { Location } from '../../model/location.module';
+import { SKUS } from '../../model/db.skus';
+import { Sku } from '../../model/sku.module';
 CommonModule;
 @Component({
   selector: 'app-header',
   standalone: true,
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
-  imports: [NavlistComponent, LocationComponent, NgFor],
+  imports: [NavlistComponent, SkuComponent, NgFor],
 })
 export class HeaderComponent {
   links: Navlink[] = NAVLINKS;
-  locations: Location[] = LOCATIONS;
+  skus: Sku[] = SKUS;
 }

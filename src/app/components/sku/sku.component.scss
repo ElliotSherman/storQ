@@ -3,11 +3,11 @@
 //   <button class="location-options-btn">Options</button>
 //   <div class="location-seperator"></div>
 @import "../../../styles/styles.scss";
-.location-container {
+.sku-container {
   display: flex;
   justify-content: space-between;
 }
-.location-seperator {
+.sku-seperator {
   height: rem(3px);
   background-color: $clr2;
 }
