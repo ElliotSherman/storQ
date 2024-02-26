@@ -1,12 +1,12 @@
 import { Navlink } from '../../model/navlink.module';
 export const NAVLINKS: Navlink[] = [
   {
-    title: 'Link',
-    // route: '',
+    title: 'Dashboard',
+    route: 'dashboard',
   },
   {
-    title: 'Link',
-    // route: '',
+    title: 'Market',
+    route: 'market',
   },
   //   {
   //     title: '',

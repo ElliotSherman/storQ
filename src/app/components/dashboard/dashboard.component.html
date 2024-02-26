@@ -1,0 +1,40 @@
+<p>here we will render a page that allows to manage the whole warehouse thing </p>
+<ol>
+  <li>
+    allows to create new aisles (choose the amount of SKUs in the new aisle)
+  </li>
+  <li>allows to assign products to vacant SKUs</li>
+</ol>
+
+<p>
+  each management optiopn will have a seperate form displayed for the
+  capabilities
+</p>
+
+<p>
+  we will have a button for each form we want to display <br />
+  if add prodcts is active render add product form <br />
+  if add aisle is selected render the add aisle form
+</p>
+
+<section class="dashboard-select-btns">
+  <button
+    class="dashboard-select-btn"
+    (click)="displayProductForm()"
+    [disabled]="showProductForm"
+  >
+    Add Product
+  </button>
+  <button
+    class="dashboard-select-btn"
+    (click)="displayAisleForm()"
+    [disabled]="showAisleForm"
+  >
+    Add Aisle
+  </button>
+</section>
+
+<section>
+  <form *ngIf="showProductForm">PRODUCT FORM</form>
+  <form *ngIf="showAisleForm">AISLE FORM</form>
+</section>

@@ -1,9 +1,14 @@
-<header class="header main-layout full">
-  <div class="navbar flex space-between">
-    <h1 class="logo">storQ</h1>
-    <nav class="header-nav">
-      <app-navlist class="nav-links-container" [links]="links"></app-navlist>
-    </nav>
-  </div>
+<header class="app-header">
+  <div class="header-logo">storQ</div>
+  <nav class="header-nav">
+    <ul class="header-nav-list">
+      <li>
+        <a routerLink="dashboard">
+          Dashboard
+        </a>
+      </li>
+    </ul>
+  </nav>
 </header>
-<app-sku></app-sku>
+<router-outlet></router-outlet>
+<!-- <app-sku></app-sku> -->

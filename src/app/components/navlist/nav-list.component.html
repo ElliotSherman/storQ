@@ -1,7 +1,15 @@
-<ul class="nav-list clean-list" *ngIf="links">
-  <li class="nav-list-li" *ngFor="let link of links">
-    <a class="nav-list-link">
-      {{ link.title }}
-    </a>
-  </li>
-</ul>
+<nav class="header-nav">
+  <ul class="header-nav-list" *ngIf="links">
+    <li *ngFor="let link of links">
+      <a>
+        {{ link.title }}
+      </a>
+    </li>
+  </ul>
+</nav>
+
+
+<!-- <li class="flex align-center"><a href="#">Journal</a></li> -->
+<!-- <li class="flex align-center"><a href="#">About</a></li> -->
+<!-- <li class="flex align-center"><a href="#">Work</a></li> -->
+<!-- <li class="flex align-center"><a href="#">Contact</a></li> -->
